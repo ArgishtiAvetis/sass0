@@ -1,0 +1,67 @@
+.container-fluid {
+  margin: 0; }
+
+.btn {
+  border-radius: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold; }
+
+nav.navbar.navbar-default {
+  background: green;
+  border-radius: 0;
+  margin: 0px;
+  padding: 0px;
+  border: none; }
+  nav.navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: white; }
+  nav.navbar.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: darkgreen; }
+  nav.navbar.navbar-default ul.dropdown-menu {
+    background: green; }
+  nav.navbar.navbar-default li.open a.dropdown-toggle {
+    color: white;
+    background: darkgreen; }
+  nav.navbar.navbar-default .open .dropdown-menu li a, nav.navbar.navbar-default .open .dropdown-menu li:hover a {
+    color: white; }
+  nav.navbar.navbar-default .open .dropdown-menu li:hover a {
+    background: darkgreen; }
+  nav.navbar.navbar-default a.navbar-brand {
+    color: white; }
+  nav.navbar.navbar-default ul li a {
+    color: white; }
+  nav.navbar.navbar-default ul li.active a {
+    background: darkgreen;
+    color: white; }
+  nav.navbar.navbar-default ul li a:hover, nav.navbar.navbar-default ul li.active a:hover {
+    background: darkgreen;
+    color: white; }
+
+.intro {
+  background: url("https://images.pexels.com/photos/7374/startup-photos.jpg") fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0 75px 0; }
+  .intro .intro-text, .intro h1 {
+    color: white; }
+  .intro h1 {
+    font-size: 55px;
+    font-weight: bold; }
+  .intro .btn-intro-primary {
+    background: green;
+    border: green;
+    color: white; }
+  .intro .btn-intro-secondary {
+    background: white;
+    color: darkgreen; }
+
+.feature-container {
+  background: #eee; }
+  .feature-container .feature-row {
+    padding: 55px 0; }
+    .feature-container .feature-row h3 {
+      font-weight: 700;
+      font-size: 30px; }
+
+/*# sourceMappingURL=styles.css.map */

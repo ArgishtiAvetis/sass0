@@ -1,0 +1,113 @@
+$main: green;
+$main_dark: darkgreen;
+
+
+.container-fluid {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav.navbar.navbar-default {
+  background: $main;
+  border-radius: 0;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .navbar-toggle:hover .icon-bar {
+    background-color: $main_dark;
+  }
+
+  ul.dropdown-menu {
+    background: green;
+  }
+
+  li.open a.dropdown-toggle {
+    color: white;
+    background: $main_dark;
+  }
+
+  .open .dropdown-menu li a, .open .dropdown-menu li:hover a {
+    color: white;
+  }
+
+  .open .dropdown-menu li:hover a {
+    background: $main_dark;
+  }
+
+  a.navbar-brand {
+    color: white
+  }
+
+  ul li a {
+    color: white;
+  }
+
+  ul li.active a {
+    background: $main_dark;
+    color: white;
+  }
+
+  ul li a:hover, ul li.active a:hover {
+    background: $main_dark;
+    color: white;
+  }
+}
+
+.intro {
+  background: url('https://images.pexels.com/photos/7374/startup-photos.jpg') fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0 75px 0;
+
+  .intro-text {
+    color: white;
+  }
+
+  h1 {
+    @extend .intro-text;
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .btn-intro-primary {
+    background: $main;
+    border: $main;
+    color: white;
+  }
+
+  .btn-intro-secondary {
+    background: white;
+    color: $main_dark;
+  }
+}
+
+.feature-container {
+  background: #eee;
+  .feature-row {
+    padding: 55px 0;
+
+    h3 {
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+}
+
+
+
+
+
+
+//
